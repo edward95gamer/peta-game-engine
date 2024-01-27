@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #11A743;
+    background-image: url("download.svg");
+    position: relative;
+}
+
+#player {
+    width: 55px;
+    height: 80px;
+    background-image: url('player.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.enemy {
+    width: 55px;
+    height: 80px;
+    background-image: url('enemy.png');
+    background-size: cover;
+    position: absolute;
+}
+
+
+#controls-container {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+#controls-container button {
+    margin: 5px;
+}
